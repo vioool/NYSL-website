@@ -263,16 +263,106 @@ p .short {
     width: 600px;
 }
 
+select {
+    height: 22px;
+    border-radius: 2px;
+}
+
 form {
     width: 600px;
 }
 
 label {
+    display: flex;
+    align-items: center;
     font-family: monospace;
     font-size: 15px;
     color: white;
 }
 
 input {
+    display: flex;
+    margin: 10px 10px 10px 0;
+    border-radius: 2px;
+}
+
+.list1, .list2 {
+    display: flex;
+}
+
+.list2 label {
+    width: 25%
+}
+
+.list1 label {
+    width: 24.4%
+}
+
+.list1 input {
+    width: 85%;
+}
+
+.fold {
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+
+.fold label {
+    width: 21.5%
+}
+
+.fold input {
+    width: 26%;
+    height: 18px;
+    margin: 10px 10px 10px 0;
+}
+
+.fold2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+select {
+    width: 50%;
+    margin: 0 10px 10px 0;
+}
+
+.check {
+    display: flex;
+    align-content: center;
+    justify-content: space-between
+}
+
+.check label {
     width: 100%;
+}
+
+.choose {
+    display: flex;
+    width: 50%;
+    align-content: center;
+    justify-content: space-between
+}
+
+.choose label {
+    width: 100%;
+}
+
+.size2 {
+    display: flex;
+    width: 67%;
+    justify-content:space-between;
+}
+
+
+input[type=submit] {
+    margin: 30px 0;
+    padding: 16px 20px;
+    background-color: red;
+    border-radius: 5px;
+    font-family:fantasy;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
 }
