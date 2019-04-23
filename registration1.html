@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>info</title>
+    <link rel="stylesheet" href="Styles%202/nysl_3.css">
+</head>
+<body>
+    <div class="main-container">
+        <img class="background-img hidden" src="file:///C:/Users/viooo/OneDrive/Viola/WERK/Projecten/Ubiqum/NYSL%20website/Root%20folder/NYSL%20lettering.png" alt="background nysl youth soccer" >
+            <div class="header">
+                <img class="header-img"   src="file:///C:/Users/viooo/OneDrive/Viola/WERK/Projecten/Ubiqum/NYSL%20website/Root%20folder/NYSL%20Kids%201.png" alt="header1 nysl kids1" >    
+                <div class="titlebar">
+                    <h2>Registration Form</h2>
+                    <a href="home1.html">
+                    <div class="logo">
+                        <img class="logo-img grow" src="file:///C:/Users/viooo/OneDrive/Viola/WERK/Projecten/Ubiqum/NYSL%20website/Root%20folder/Logo%20NYSL.png" alt="nysl logo" >
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left-bottom">
+                    <!-- Nav list -->
+                    <div class="topnav">
+                        <ul>
+                            <li><a href="home1.html">Home</a></li>
+                            <li><a href="about1.html">About</a></li>
+                            <li><a href="contact1.html">Contact</a></li>
+                            <li><a href="rules1.html">Rules of Play &amp; Policies</a></li>
+                            <li><a href="info1.html">NYSL Game Information</a></li>
+                            <li><a class="active" href="registration1.html">Registration</a></li>
+                        </ul> 
+                    </div>
+                </div>
+        <div class="right-bottom">
+            <div class="eventlist">
+                <div class="event">
+                    <form action="show_data.html" method="get">
+                        <div class="text"
+                            <label for="first-name">Player’s First Name</label>
+                            <input name="first-name" id="first-name">
+                            <label for="last-name">Last Name</label>
+                            <input name="last-name" id="last-name">
+                            <label for="street-address">Street Address</label>
+                            <input name="street-address" id="street-address">
+                            <label for="city">City</label>
+                            <input name="city" id="city">
+                            <label for="zip-code">Zip Code</label>
+                            <input name="zip-code" id="zip-code">
+                            <label for="birth-date">Birth Date</label>
+                            <input name="birth-date" id="birth-date">
+                            <label for="parent-guardian">Parent/Guardian</label>
+                            <input name="parent-guardian" id="parent-guardian">
+                            <label for="contact-phone">Contact Phone</label>
+                            <input name="contact-phone" id="contact-phone">
+                            <label for="contact-email">Contact Email</label>
+                            <input name="contact-email" id="contact-email">
+                    <p>Which elementary schools do you live near?</p>
+                            <select name="firstschool">
+                                <option value="choose">Choose first closest school</option>
+                                <option value="katzenmaier">AJ Katzenmaier</option>
+                                <option value="greenbay">Greenbay</option>
+                                <option value="yeager">Howard A Yeager</option>
+                                <option value="hart">Marjorie P Hart</option>
+                                <option value="north">North</option>
+                                <option value="south">South</option>
+                            </select>
+                            <select name="secondschool">
+                                <option value="choose">Choose second closest school</option>
+                                <option value="katzenmaier">AJ Katzenmaier</option>
+                                <option value="greenbay">Greenbay</option>
+                                <option value="yeager">Howard A Yeager</option>
+                                <option value="hart">Marjorie P Hart</option>
+                                <option value="north">North</option>
+                                <option value="south">South</option>
+                            </select>
+                    <p>What position(s) do you normally play? (check all that apply)</p>
+                        <div>
+                            <input type="checkbox" id="forward1" name="position1" value="forward1">
+                            <label for="forward1">Forward</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="defense1" name="position1" value="defense1">
+                            <label for="defense1">Defense</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="midfield1" name="position1" value="midfield1">
+                            <label for="midfield1">Midfield</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="goalkeeper1" name="position1" value="goalkeeper1">
+                            <label for="goalkeeper1">Goalkeeper</label>
+                        </div>
+                    <p>What position(s) do you want to play? (check all that apply)</p>
+                        <div>
+                            <input type="checkbox" id="forward2" name="position2" value="forward2">
+                            <label for="forward2">Forward</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="defense2" name="position2" value="defense2">
+                            <label for="defense2">Defense</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="midfield2" name="position2" value="midfield2">
+                            <label for="midfield2">Midfield</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="goalkeeper2" name="position2" value="goalkeeper2">
+                            <label for="goalkeeper2">Goalkeeper</label>
+                        </div>
+                    <p>Already Have a Uniform?</p>
+                        <div>
+                            <input type="radio" id="yes" name="uniform" value="yes">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="no" name="uniform" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    <p>Jersey size:</p>
+                            <select name="jersey">
+                                <option value="choose">Choose your size</option>
+                                <option value="ys">Youth Small</option>
+                                <option value="ym">Youth Medium</option>
+                                <option value="yl">Youth Large</option>
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                                <option value="xl">Extra-Large</option>
+                            </select>
+                    <p>Shorts size:</p>
+                            <select name="shorts">
+                                <option value="choose">Choose your size</option>
+                                <option value="ys">Youth Small</option>
+                                <option value="ym">Youth Medium</option>
+                                <option value="yl">Youth Large</option>
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                                <option value="xl">Extra-Large</option>
+                            </select>
+                    <p><span>Permission to Play</span></p>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation<br>
+                    By entering your name below, I herebyagree andauthorizethe above. In addition, by entering your name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p><br>
+                            <label for="signature">Name:</label>
+                            <input name="signature" id="signature">
+                    <p>Date:</p>
+                            <input type="date" name="date"><br><br>
+                        <input type="submit">
+                    </form>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+                                            

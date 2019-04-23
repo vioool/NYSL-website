@@ -1,0 +1,150 @@
+.main-container {
+  display: flex;  
+  flex-flow: row wrap;
+  font-family: sans-serif;
+  color: midnightblue;
+}
+
+.main-container > * {
+  padding: 10px;
+/*  flex: 1 100%;*/
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 90px;
+    margin: 0px 150px
+    
+}
+
+.button {
+    list-style-type: none;
+    padding: 16px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 150px;
+}
+
+.banner {
+    background-color: midnightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.banner-img {
+    height: 200px;
+    margin: 0px 150px;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-start;
+    margin: 10px 150px;
+    align-items: center;
+    list-style-type: none;
+}
+
+li a {
+    font-weight:100;
+    color: midnightblue;
+    text-align: center;
+    padding: 0 16px 16px 0;
+    text-decoration: none;
+}
+
+.active {
+    font-weight:bold;
+    border-bottom: solid 4px midnightblue; 
+}
+
+article {
+    justify-content: space-between;
+    margin: 60px 340px;
+}
+
+.list, .list2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list li {
+    flex-basis: 50%;
+}
+
+label {
+}
+
+input {
+    width: 55%;
+    margin-left: 20px;
+}
+
+.list2 input {
+    width: 60%;
+    margin-left: 20px;
+    
+}
+
+ul {
+}
+
+ol {
+    margin: 0
+}
+
+.bullit {
+    list-style: square;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.dot {
+    list-style: circle;
+}
+
+.number ol {
+    list-style-type: "1";
+    padding: 0;
+}
+
+.letter {
+    margin-left: 25px;
+    list-style-type: lower-alpha;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-weight:lighter;
+    font-size: 40px;
+    color: white;
+    margin: 0px 150px;
+}
+
+h3 {
+    margin: 20px 0 0 0;
+}
+
+p {
+    font-family: sans-serif;
+    color: midnightblue;
+}
