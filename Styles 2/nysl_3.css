@@ -82,7 +82,7 @@ body {
     font-family: fantasy;
     font-size: 50px;
     position: absolute;
-    top: 15px;
+    top: 37px;
     left: 850px;
 }
 
@@ -364,5 +364,19 @@ input[type=submit] {
     font-family:fantasy;
     font-size: 50px;
     text-decoration: none;
+    color: white;
+}
+
+.register {
+    position: absolute;
+    top: -200px;
+    right: 100px;
+    list-style-type: none;
+    padding: 16px 20px;
+    background-color: red;
+    border-radius: 5px;
+    font-family:fantasy;
+    font-size: 50px;
+    text-decoration:overline;
     color: white;
 }
