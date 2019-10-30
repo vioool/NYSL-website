@@ -17,4 +17,4 @@ CHALLENGE:
 • Get them all organised and nicely styled. 
 
 WHAT I LIKED MOST: • Playing around with CSS was fun. 
-• The insight what power coding skills bring from perspective of me as a designer.
+• The realisation arises that I'm able to transform my ideas and designs into a product.
